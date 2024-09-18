@@ -1,0 +1,220 @@
+@media (max-width: 1200px) {
+  .jumbotron .display-4 {
+    font-size: 3rem;
+    letter-spacing: 8px;
+  }
+
+  .logo-N {
+    width: 25%;
+  }
+}
+
+@media (max-width: 992px) {
+  .jumbotron .display-4 {
+    font-size: 2.5rem;
+    letter-spacing: 6px;
+  }
+
+  .logo-N {
+    width: 30%;
+  }
+
+  .jumbotron .lead {
+    font-size: 1.15rem;
+  }
+
+  .jumbotron .cek {
+    padding: 10px 100px;
+    font-size: 1.15rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .jumbotron .display-4 {
+    font-size: 2rem;
+    letter-spacing: 5px;
+  }
+
+  .logo-N {
+    width: 40%;
+  }
+
+  .jumbotron .lead {
+    font-size: 1.1rem;
+  }
+
+  .jumbotron .cek {
+    padding: 13px 140px;
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .jumbotron .display-4 {
+    font-size: 2rem;
+    letter-spacing: 3px;
+  }
+
+  .logo-N {
+    width: 50%;
+  }
+
+  .jumbotron .lead {
+    font-size: 1rem;
+  }
+
+  .jumbotron .cek {
+    padding: 13px 100px;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .main-contain {
+    margin: 0 auto;
+    padding: 1rem 0.5rem;
+    position: relative;
+    text-align: center;
+  }
+  .main-contain .top-title {
+    font-size: 0.9rem;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    margin: 7px;
+    color: #00aeff;
+  }
+  .main-contain .name-title {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 12px;
+  }
+  .main-contain p {
+    font-size: 0.9rem;
+    font-weight: 300;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    margin: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container-list-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .list-card {
+    width: 16.2rem;
+  }
+
+  .list-card-body {
+    border-radius: 20px;
+    overflow: hidden;
+    padding-bottom: 32%;
+    margin-bottom: 40px;
+    margin: 9px;
+  }
+
+  .list-card-body a {
+    text-decoration: none;
+    font-weight: 600;
+    background-color: #00aeff;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 0px 0px 0px,
+      rgba(0, 0, 0, 0.14) 0 0px 0px 0px, rgba(0, 0, 0, 0.12) 0 2px 4px 0px;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    color: #fff;
+    transition: all 0.2s;
+  }
+
+  .list-card-body a:hover {
+    color: var(--second-text-color);
+    background-color: #f5f5f500;
+    border: #00aeff solid 2px;
+    color: #00aeff;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+  }
+
+  .list-title {
+    margin: 15px;
+    font-size: 12px;
+    margin-top: -170px;
+    align-items: center;
+    text-align: center;
+    color: white;
+  }
+  /*Pesan Button 768*/
+  
+}
+
+@media (max-width: 576px) {
+  .container-list-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .list-card {
+    width: 14.4rem;
+  }
+
+  .list-card-body {
+    border-radius: 20px;
+    overflow: hidden;
+    padding-bottom: 25%;
+    margin-bottom: 4px;
+    margin: 9px;
+  }
+
+  .list-card-body a {
+    text-decoration: none;
+    font-weight: 600;
+    background-color: #00aeff;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 0px 0px 0px,
+      rgba(0, 0, 0, 0.14) 0 0px 0px 0px, rgba(0, 0, 0, 0.12) 0 2px 4px 0px;
+    padding: 4.5px 12px;
+    border-radius: 20px;
+    font-size: 15px;
+    color: #fff;
+    transition: all 0.2s;
+  }
+
+  .list-card-body a:hover {
+    color: var(--second-text-color);
+    background-color: #f5f5f500;
+    border: #00aeff solid 2px;
+    color: #00aeff;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+  }
+
+  .list-title {
+    margin: 6px;
+    text-shadow: 1px 1px 1px #000000;
+    font-size: 18px;
+    margin-top: -120px;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .main-contain .top-title {
+    font-size: 1.1rem;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    margin: 10px;
+    color: #00aeff;
+  }
+
+  /*Pesan responsif*/
+}

@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Layanan Kami</title>
+    <link rel="icon" href="/Nirmala-v2/image/nirmala logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/style/responsif main.css" />
+    <link rel="stylesheet" href="/style/style navbar.css" />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/style/style pesan.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <nav class="navbar">
+          <div class="logo">Nirmala Home SPA</div>
+          <ul class="nav-links">
+            <li><a href="/index.html">Beranda</a></li>
+            <li>
+              <a href="/html/semua layanan.html">Layanan Kami</a>
+            </li>
+            <li><a href="/html/layanan kami.html">Artikel</a></li>
+            <li>
+              <!--
+              <a href="pesan.html">
+                <button class="btn">Reservasi</button>
+              </a>-->
+            </li>
+          </ul>
+          <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+        </nav>
+      </header>
+
+      <!--layanan 1-->
+      <div class="minitron">
+        <img
+          class="pic-minitron"
+          src="/image/wajah+refleksi.jpg"
+          alt="Gambar 1"
+        />
+        <h2 class="title-minitron">REFLEKSI + TOTOK WAJAH</h2>
+        <p>
+          90 Menit&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;Rp. 160.000,-<br />
+          120 Menit&nbsp;&nbsp;:&nbsp;&nbsp;Rp. 190.000,-<br />
+        </p>
+      </div>
+
+
+
+      <button id="showFormBtn" class="pesan-button">Pesan</button>
+        <div id="formcontainer" class="form-container hidden">
+        <form id="whatsappForm" autocomplete="off">
+          <div class="form">
+            <label for="name">Nama Lengkap</label>
+            <input
+              type="text"
+              id="name"
+              placeholder="Nama Lengkap Anda"
+              required="harap di isi"
+            />
+            <label for="alamat">No. Telp / Whatsapp</label>
+            <input
+              type="tel"
+              id="notelp"
+              pattern="\08[0-9]{8,14}"
+              placeholder="Contoh : 0812345678"
+              required="harap di isi"
+            />
+            <div class="gender-selection">
+              <h4>Pilih Jenis Kelamin</h4>
+              <label class="radio-container">
+                Wanita
+                <input
+                  type="radio"
+                  id="gender"
+                  name="gender"
+                  value="Wanita"
+                  required="Harap di isi"
+                />
+                <span class="checkmark"></span>
+              </label>
+            </div>
+  
+            <label for="jenis">Alamat Lengkap</label>
+            <input
+              type="text"
+              id="alamat"
+              placeholder="PERUM Village...Blok..."
+              required="harap di isi"
+            />
+            <div class="area-selection">
+              <h4>Area</h4>
+              <label class="radio-container">
+                BSD City
+                <input type="radio" name="area" id="area1" value="BSD City" />
+                <span class="checkmark"></span>
+              </label>
+              <label class="radio-container">
+                Serpong
+                <input type="radio" name="area" id="area2" value="Serpong" />
+                <span class="checkmark"></span>
+              </label>
+              <label class="radio-container">
+                Pamulang
+                <input type="radio" name="area" id="area3" value="Pamulang" />
+                <span class="checkmark"></span>
+              </label>
+              <label class="radio-container">
+                Ciputat
+                <input type="radio" name="area" id="area4" value="Ciputat" />
+                <span class="checkmark"></span>
+              </label>
+              <label class="radio-container">
+                Sawangan
+                <input type="radio" name="area" id="area5" value="Sawangan" />
+                <span class="checkmark"></span>
+              </label>
+              <label class="radio-container">
+                Citayam
+                <input type="radio" name="area" id="area6" value="Citayam" />
+                <span class="checkmark"></span>
+              </label>
+              <label class="radio-container">
+                Parung
+                <input type="radio" name="area" id="area7" value="Parung" />
+                <span class="checkmark"></span>
+              </label>
+            </div>
+              <label for="jenis">Jam Pemesanan (WIB)</label>
+              <p style="margin-left: -187px; font-size: 11px;">Pesan mulai dari jam 09:00 - 18:00</p>
+              <input type="time" id="jam" step="60" min="09:00" max="18:00" required/>
+              <div class="gender-selection">
+                <h4>Layanan Nirmala</h4>
+                <label class="radio-container">
+                  Refleksi + Totok Wajah
+                  <input
+                    type="radio"
+                    id="layanan"
+                    name="layanan"
+                    value="Refleksi + Totok Wajah"
+                    required="Harap di isi"
+                  />
+                  <span class="checkmark"></span>
+                </label>
+              </div>
+              <div class="durasi-selection">
+                <h4>Durasi & Biaya Layanan</h4>
+                </label>
+                <label class="radio-container">
+                  90 Menit&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;Rp. 160.000,-
+                  <input
+                    type="radio"
+                    name="durasi"
+                    id="durasi3"
+                    value="90 Menit : Rp. 160.000,-"
+                  />
+                  <span class="checkmark"></span>
+                </label>
+                <label class="radio-container">
+                  120 Menit&nbsp;&nbsp;:&nbsp;&nbsp;Rp. 190.000,-
+                  <input
+                    type="radio"
+                    name="durasi"
+                    id="durasi4"
+                    value="120 Menit : Rp. 190.000,-"
+                  />
+                  <span class="checkmark"></span>
+                </label>
+                <label class="radio-container">
+                  150 Menit&nbsp;&nbsp;:&nbsp;&nbsp;Rp. 240.000,-
+                  <input
+                    type="radio"
+                    name="durasi"
+                    id="durasi5"
+                    value="150 Menit : Rp. 240.000,-"
+                  />
+                  <span class="checkmark"></span>
+                </label>
+              </div>
+              <div class="pembayaran-selection">
+                <h4>Type Pembayaran</h4>
+                <label class="radio-container">
+                  Transfer
+                  <input
+                    type="radio"
+                    name="pembayaran"
+                    id="pembayaran"
+                    value="Transfer"
+                  />
+                  <span class="checkmark"></span>
+                </label>
+                <label class="radio-container">
+                  Tunai
+                  <input
+                    type="radio"
+                    name="pembayaran"
+                    id="pembayaran"
+                    value="Tunai"
+                  />
+                  <span class="checkmark"></span>
+                </label>
+              </div>           
+            <p>
+              *Harga Sesuai dengan jenis SPA dan durasi yang<br />sudah dipilih 
+              Akan di konfirmasi Admin via WhatsApp<br/>jika sudah klik <b>Kirim</b>
+            </p> 
+
+          <button type="submit">Kirim</button>
+          </div>
+        </form> 
+      </div>        
+
+ 
+
+      <!--Akhir Layanan 1-->
+
+      <!--Layanan 2-->
+      <!--Akhir Layanan 2-->
+
+
+
+      <footer class="foot">
+        <!--
+        <div class="logo">
+          <img src="nirmala logo.png" alt="Logo" />
+          <h4>Nirmala Home SPA</h4>
+        </div>
+  
+        -->
+        <br><br><br><br><br><br><br>
+        <p>
+          &#169; 2024 - NIrmala Home SPA.<br />
+          Design by Fathir Maulana Assyifa.<br />
+          All rights reserved.
+        </p>
+      </footer>
+    </div>
+    <script src="/script/script.js"></script>
+  </body>
+</html>

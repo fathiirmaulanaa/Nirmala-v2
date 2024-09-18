@@ -1,0 +1,230 @@
+        /* Style for the form container */
+        .form {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ebebeb;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        ::placeholder{
+            color: #aaaaaa;
+        }
+        .form p{
+            text-align: center;
+            font-size: 12px;
+            color: #585858;
+        }
+        
+        /* Style for the labels */
+        .form label {
+            display: block;
+            margin-bottom: px;
+            font-weight: bold;
+            color: #333;
+        }
+        
+        .form input[type="tel"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        .form input[type="time"] {
+            width: 50%;
+            padding: 8px;
+            background-color: white;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        /* Style for the inputs */
+        .form input[type="text"] {
+            width: 100%;
+            padding: 15px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        
+        /* Style for the submit button */
+        button[type="submit"] {
+            display: inline-block;
+            width: 100%;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            padding: 10px;
+            background-color: #00aeff;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+
+        }
+        
+        /* Add hover effect to the button */
+        button[type="submit"]:hover {
+            background-color: #00aeff00;
+            border: #00aeff solid 2px;
+            color: #00aeff;
+        }
+
+
+        .pembayaran-selection, .gender-selection, .durasi-selection, .area-selection{
+            margin-bottom: 17px;
+        }
+        .form h4{
+            margin-bottom: 7px;
+        }
+        .radio-container {
+            display: block;
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 10px;
+            cursor: pointer;
+            font-size: 15px;
+            user-select: none;
+        }
+        
+        .radio-container input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+            height: 0;
+            width: 0;
+        }
+        
+        .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 17px;
+            width: 17px;
+            background-color: #ffffff;
+            border-radius: 50%;
+            border: #b4b4b4 solid 0.3px;
+        }
+        
+        .radio-container:hover input ~ .checkmark {
+            background-color: #ccc;
+            border: black solid 2px;
+        }
+        
+        .radio-container input:checked ~ .checkmark {
+            background-color: #2196F3;
+        }
+        
+        .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+        }
+        
+        .radio-container input:checked ~ .checkmark:after {
+            display: block;
+        }
+        
+        .radio-container .checkmark:after {
+            top: 4px;
+            left: 35%;
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background: white;
+        }
+
+        #formcontainer{
+            margin-top: 20px;
+            display: none;
+            transform: translateY(-50%);
+            width: 400px;
+            top: 50%;
+            position: fixed;
+        }
+        .form-container{
+            position: fixed;
+            top: 0;
+            right: 0;
+            width: 300px;
+            height: 100%;
+            background-color: white;
+            box-shadow: -2px 0 5px rgba(0,0,0,0.5);
+            padding: 20px;
+            z-index: 1000;
+            overflow-y: auto;
+        }
+        .pesan-button{
+            padding: 10px 90px;
+            cursor: pointer;
+            border: none;
+            margin: 0px 17px;
+            color: white;
+            background-color: #00aeff;
+            transition: all 0.3s;
+            -webkit-transition: all 0.3s;
+            -moz-transition: all 0.3s;
+            -ms-transition: all 0.3s;
+            -o-transition: all 0.3s;
+}
+        .pesan-button:hover{
+            border: #00aeff solid 2px;
+            color: #00aeff;
+            background-color: #00aeff00;
+            transition: all 0.3s;
+            -webkit-transition: all 0.3s;
+            -moz-transition: all 0.3s;
+            -ms-transition: all 0.3s;
+            -o-transition: all 0.3s;
+}
+
+
+
+@media (max-width: 768px){
+    .pesan-button{
+        padding: 10px 190px;
+        cursor: pointer;
+        border: none;
+        margin: -2px 15px;
+        color: white;
+        background-color: #00aeff;
+        transition: all 0.3s;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        -ms-transition: all 0.3s;
+        -o-transition: all 0.3s;
+}
+
+.minitron{
+    position: relative;
+    padding: 1rem 1rem;
+    color: #000000;
+
+}
+.pic-minitron{
+    width: 100%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.title-minitron{
+    font-size: 1.38rem;
+    margin: 15px 0px;
+    font-weight: 600;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    letter-spacing: 10px;
+}
+.minitron2{
+    margin-top: 4rem;
+    position: relative;
+    padding: 1rem 1rem;
+    color: #000000;
+
+}
+}

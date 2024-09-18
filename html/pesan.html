@@ -1,0 +1,218 @@
+
+      
+      <div id="formcontainer">
+        <form onsubmit="sendMessage()">
+          <div class="form">
+            <label for="name">Nama Lengkap</label>
+            <input
+              type="text"
+              id="name"
+              placeholder="Nama Lengkap Anda"
+              required="harap di isi"
+            />
+            <label for="alamat">No. Telp</label>
+            <input
+              type="tel"
+              id="notelp"
+              pattern="\08[0-9]{8,14}"
+              placeholder="08"
+              required="harap di isi"
+            />
+            <div class="gender-selection">
+              <h4>Pilih Jenis Kelamin</h4>
+              <label class="radio-container">
+                Wanita
+                <input
+                  type="radio"
+                  id="gender"
+                  name="gender"
+                  value="Wanita"
+                  required="Harap di isi"
+                />
+                <span class="checkmark"></span>
+              </label>
+            </div>
+  
+            <label for="jenis">Alamat Lengkap</label>
+            <input
+              type="text"
+              id="alamat"
+              placeholder="PERUM Village...Blok..."
+              required="harap di isi"
+            />
+            <div class="area-selection">
+              <h4>Area</h4>
+              <label class="radio-container">
+                BSD City
+                <input type="radio" name="area" id="area1" value="BSD City" />
+                <span class="checkmark"></span>
+              </label>
+              <label class="radio-container">
+                Serpong
+                <input type="radio" name="area" id="area2" value="Serpong" />
+                <span class="checkmark"></span>
+              </label>
+              <label class="radio-container">
+                Pamulang
+                <input type="radio" name="area" id="area3" value="Pamulang" />
+                <span class="checkmark"></span>
+              </label>
+              <label class="radio-container">
+                Ciputat
+                <input type="radio" name="area" id="area4" value="Ciputat" />
+                <span class="checkmark"></span>
+              </label>
+              <label class="radio-container">
+                Sawangan
+                <input type="radio" name="area" id="area5" value="Sawangan" />
+                <span class="checkmark"></span>
+              </label>
+              <label class="radio-container">
+                Citayam
+                <input type="radio" name="area" id="area6" value="Citayam" />
+                <span class="checkmark"></span>
+              </label>
+              <label class="radio-container">
+                Parung
+                <input type="radio" name="area" id="area7" value="Parung" />
+                <span class="checkmark"></span>
+              </label>
+            </div>
+              <label for="jenis">Jam Pemesanan (WIB)</label>
+              <p style="margin-left: -187px; font-size: 11px;">Pesan mulai dari jam 09:00 - 18:00</p>
+              <input type="time" id="jam" step="60" min="09:00" max="18:00" required/>
+              <div class="gender-selection">
+                <h4>Layanan Nirmala</h4>
+                <label class="radio-container">
+                  Pijat Tradisional
+                  <input
+                    type="radio"
+                    id="layanan"
+                    name="layanan"
+                    value="Pijat Tradisional"
+                    required="Harap di isi"
+                  />
+                  <span class="checkmark"></span>
+                </label>
+              </div>
+              <div class="durasi-selection">
+                <h4>Durasi</h4>
+                </label>
+                <label class="radio-container">
+                  60 Menit
+                  <input
+                    type="radio"
+                    name="durasi"
+                    id="durasi2"
+                    value="60 Menit"
+                  />
+                  <span class="checkmark"></span>
+                </label>
+                <label class="radio-container">
+                  90 Menit
+                  <input
+                    type="radio"
+                    name="durasi"
+                    id="durasi3"
+                    value="90 Menit"
+                  />
+                  <span class="checkmark"></span>
+                </label>
+                <label class="radio-container">
+                  120 Menit
+                  <input
+                    type="radio"
+                    name="durasi"
+                    id="durasi4"
+                    value="120 Menit"
+                  />
+                  <span class="checkmark"></span>
+                </label>
+                <label class="radio-container">
+                  150 Menit
+                  <input
+                    type="radio"
+                    name="durasi"
+                    id="durasi5"
+                    value="150 Menit"
+                  />
+                  <span class="checkmark"></span>
+                </label>
+              </div>
+                <div class="biaya-selection">
+                <h4>Biaya Layanan</h4>
+                </label>
+                <label class="radio-container">
+                  Rp. 110.000,-
+                  <input
+                    type="radio"
+                    name="biaya"
+                    id="biaya1"
+                    value="Rp. 110.000,-"
+                  />
+                  <span class="checkmark"></span>
+                </label>
+                <label class="radio-container">
+                  Rp. 150.000,-
+                  <input
+                    type="radio"
+                    name="biaya"
+                    id="biaya2"
+                    value="Rp. 150.000,-"
+                  />
+                  <span class="checkmark"></span>
+                </label>
+                <label class="radio-container">
+                  Rp. 180.000,-
+                  <input
+                    type="radio"
+                    name="biaya"
+                    id="biaya3"
+                    value="Rp. 180.000,-"
+                  />
+                  <span class="checkmark"></span>
+                </label>
+                <label class="radio-container">
+                  Rp. 230.000,-
+                  <input
+                    type="radio"
+                    name="biaya"
+                    id="biaya4"
+                    value="Rp. 230.000,-"
+                  />
+                  <span class="checkmark"></span>
+                </label>                
+                </div>
+  
+              <div class="pembayaran-selection">
+                <h4>Type Pembayaran</h4>
+                <label class="radio-container">
+                  Transfer
+                  <input
+                    type="radio"
+                    name="pembayaran"
+                    id="pembayaran"
+                    value="Transfer"
+                  />
+                  <span class="checkmark"></span>
+                </label>
+                <label class="radio-container">
+                  Tunai
+                  <input
+                    type="radio"
+                    name="pembayaran"
+                    id="pembayaran"
+                    value="Tunai"
+                  />
+                  <span class="checkmark"></span>
+                </label>
+              </div>
+            <p>
+              *Harga Sesuai dengan jenis SPA dan durasi yang<br />sudah dipilih 
+              Akan di konfirmasi Admin via WhatsApp<br/>jika sudah klik <b>Kirim</b>
+            </p>            
+            </div>    
+          <button type="submit">Kirim via WhatsApp</button>
+        </form>              
+        </div>
+

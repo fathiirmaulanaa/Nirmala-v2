@@ -1,0 +1,265 @@
+:root {
+  --main-font-size: 16px;
+  --card-margin: 20px;
+  --card-padding: 15px;
+  --container-width: 1200px;
+  --primary-color: #333;
+  --secondary-color: #fff;
+  --nav-height: 60px;
+}
+
+/*awal*/
+
+/* Styles for the burger button */
+
+/*akhir*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media (max-width: 760px) {
+  :root {
+    --main-font-size: 14px;
+    --card-margin: 15px;
+    --card-padding: 10px;
+    --container-width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  :root {
+    --main-font-size: 12px;
+    --card-margin: 10px;
+    --card-padding: 8px;
+    --container-width: 100%;
+  }
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+}
+
+.container {
+  width: var(--container-width);
+  margin: 0 auto;
+  scroll-behavior: smooth;
+}
+.card {
+  margin: var(--card-margin);
+  padding: var(--card-padding);
+}
+
+
+/*tutup*/
+
+/*JUMBOTRON*/
+
+.jumbotron {
+  position: relative;
+  padding: 2rem 1rem;
+  margin-top: 1.7rem;
+  background-size: cover;
+  background-position: center;
+  color: #000000;
+  text-align: center;
+}
+
+
+
+.logo-N {
+  position: relative;
+  width: 20%;
+  background-size: cover;
+  background-position: center;
+}
+
+.jumbotron .display-4 {
+  font-size: 3.5rem;
+  font-weight: 300;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  letter-spacing: 10px;
+}
+
+.jumbotron .lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+  margin: 20px;
+}
+
+.jumbotron .cek {
+  padding: 12px 300px;
+  font-size: 1.25rem;
+  text-decoration: none;
+  color: #fff;
+  background-color: #00aeff;
+  border: none;
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+}
+
+.jumbotron .cek:hover {
+  background-color: #00336900;
+  border: #00aeff solid 2px;
+  color: #00aeff;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+}
+
+
+.minitron{
+  position: relative;
+  padding: 1rem 1rem;
+  color: #000000;
+  margin: 20px 0;
+
+}
+.pic-minitron{
+  width: 50%;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.title-minitron{
+  font-size: 2rem;
+  margin: 15px 0px;
+  font-weight: 300;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  letter-spacing: 10px;
+}
+
+.minitron2{
+  margin-top: 7rem;
+  position: relative;
+  padding: 1rem 1rem;
+  color: #000000;
+
+}
+
+.main-contain {
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  position: relative;
+  text-align: center;
+}
+.main-contain .top-title {
+  font-size: 1rem;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
+  margin: 10px;
+  color: #00aeff;
+}
+.main-contain .name-title {
+  font-size: 3.25rem;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 17px;
+}
+.main-contain p {
+  font-size: 1.25rem;
+  font-weight: 300;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 20px;
+}
+/*LIST CARD*/
+.container-list-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.list-card {
+  width: 25rem;
+}
+
+.list-card-body {
+  border-radius: 15px;
+  overflow: hidden;
+  padding-bottom: 34%;
+  margin-bottom: 40px;
+  margin: 9px;
+  text-align: center;
+  border: #00aeff5b solid 4px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.list-card-body img {
+  width: 100%;
+}
+
+.list-card-body a {
+  text-decoration: none;
+  font-weight: 600;
+  background-color: #00aeff;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 0px 0px 0px,
+    rgba(0, 0, 0, 0.14) 0 0px 0px 0px, rgba(0, 0, 0, 0.12) 0 2px 4px 0px;
+  padding: 4px 20px;
+  border-radius: 20px;
+  font-size: small;
+  color: #fff;
+  transition: all 0.2s;
+}
+
+.list-card-body a:hover {
+  color: var(--second-text-color);
+  background-color: #f5f5f500;
+  border: #00aeff solid 2px;
+  color: #00aeff;
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+}
+
+.list-title {
+  margin: 30px;
+  font-size: 18px;
+  text-shadow: 1px 1px 1px #000000;
+  margin-top: -220px;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+/*footer*/
+.foot {
+  margin: 20px;
+}
+.foot img {
+  width: 7%;
+}
+
+footer p {
+  padding: 2.5rem 0;
+  color: #bdbdbd;
+  text-align: center;
+}
+
+
