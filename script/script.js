@@ -34,7 +34,7 @@ document
       'input[name="pembayaran"]:checked'
     ).value;
 
-    var whatsappUrl = `https://api.whatsapp.com/send?phone=6281936626336&text=*FORM%20BOOKING*%0A%0A-%20Nama%20Lengkap%20%3A%20${encodeURIComponent(
+    var whatsappUrl = `https://api.whatsapp.com/send?phone=6281936626336&text=*FORM%20BOOKING%20NIRMALA%20HOME%20SPA*%0A%0A-%20Nama%20Lengkap%20%3A%20${encodeURIComponent(
       name
     )}%0A-%20No.%20Telp%20%3A%20${encodeURIComponent(
       notelp
@@ -53,12 +53,13 @@ document
     )}%0A-%20Type%20Pembayaran%20%3A%20${encodeURIComponent(
       pembayaran
     )}%0A%20_Jika%20ada%20penambahan%20layanan%20dimohon%20konfirmasi%20admin_
+    %0A%0ASalam%20Bugar%0ANirmala.
     `;
 
     window.open(whatsappUrl, "_blank");
-    setTimeout(function() {
+    setTimeout(function () {
       location.reload();
-  }, 2000);
+    }, 2000);
   });
 
 document.getElementById("showFormBtn").onclick = function () {
@@ -76,12 +77,22 @@ document.addEventListener("click", function (event) {
   }
 });
 
-
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-  anchor.addEventListener('click', function(e) {
-      e.preventDefault();
-      document.querySelector(this.getAttribute('href')).scrollIntoView({
-          behavior: 'smooth'
-      });
+document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+  anchor.addEventListener("click", function (e) {
+    e.preventDefault();
+    document.querySelector(this.getAttribute("href")).scrollIntoView({
+      behavior: "smooth",
+    });
   });
 });
+
+window.addEventListener(
+  "scroll",
+  () => {
+    document.body.style.setProperty(
+      "--scroll",
+      window.pageYOffset / (document.body.offsetHeight - window.innerHeight)
+    );
+  },
+  false
+);

@@ -170,6 +170,8 @@
             -moz-transition: all 0.3s;
             -ms-transition: all 0.3s;
             -o-transition: all 0.3s;
+            animation-name: fade;
+            animation-duration: 2s;
 }
         .pesan-button:hover{
             border: #00aeff solid 2px;
