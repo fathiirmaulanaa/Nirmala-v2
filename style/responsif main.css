@@ -70,6 +70,13 @@
 }
 
 @media (max-width: 576px) {
+  #layanan {
+    font-size: 1.8rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px, 0;
+    margin-bottom: 5px;
+  }
   .main-contain {
     margin: 0 auto;
     padding: 1rem 0.5rem;
@@ -151,7 +158,6 @@
     color: white;
   }
   /*Pesan Button 768*/
-  
 }
 
 @media (max-width: 576px) {
