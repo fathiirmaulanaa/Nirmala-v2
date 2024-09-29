@@ -48,9 +48,9 @@ document
       jam
     )}%20WIB.%0A-%20Layanan%20Nirmala%20%3A%20${encodeURIComponent(
       layanan
-    )}%0A-%20Durasi%20Layanan%20%3A%20_${encodeURIComponent(
+    )}%0A-%20Durasi%20Layanan%20%3A%20_*${encodeURIComponent(
       durasi
-    )}_%0A-%20Type%20Pembayaran%20%3A%20${encodeURIComponent(
+    )}_*%0A-%20Type%20Pembayaran%20%3A%20${encodeURIComponent(
       pembayaran
     )}%0A%20_Jika%20ada%20penambahan%20layanan%20dimohon%20konfirmasi%20admin_
     %0A%0ASalam%20Bugar%0ANirmala.
