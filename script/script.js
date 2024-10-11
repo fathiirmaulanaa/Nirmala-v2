@@ -34,7 +34,7 @@ document
       'input[name="pembayaran"]:checked'
     ).value;
 
-    var whatsappUrl = `https://api.whatsapp.com/send?phone=6281936626336&text=*FORM%20BOOKING%20NIRMALA%20HOME%20SPA*%0A%0A-%20Nama%20Lengkap%20%3A%20${encodeURIComponent(
+    var whatsappUrl = `https://api.whatsapp.com/send?phone=6287760462710&text=*FORM%20BOOKING%20NIRMALA%20HOME%20SPA*%0A%0A-%20Nama%20Lengkap%20%3A%20${encodeURIComponent(
       name
     )}%0A-%20No.%20Telp%20%3A%20${encodeURIComponent(
       notelp
