@@ -228,11 +228,12 @@ header {
   margin-bottom: 40px;
   margin: 9px;
   text-align: center;
-  border: #00aeff5b solid 4px;
+  box-shadow: 0px 2px 5px 1px black;
+  /* border: #00aeff5b solid 4px;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
   -ms-border-radius: 15px;
-  -o-border-radius: 15px;
+  -o-border-radius: 15px; */
 }
 
 .list-card-body img {
