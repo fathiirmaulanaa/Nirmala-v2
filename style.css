@@ -151,7 +151,7 @@ header {
   position: relative;
   padding: 1rem 1rem;
   color: #000000;
-  margin: 20px 0;
+  margin: 30px 0;
 }
 .pic-minitron{
   width: 50%;
@@ -287,7 +287,7 @@ footer {
 }
 
 .footer-icons {
-  margin: 200px 50px -34px 50px;
+  margin: 100px 50px -34px 50px;
 }
 
 .footer-icons a {

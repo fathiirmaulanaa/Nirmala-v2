@@ -122,7 +122,11 @@
     padding-bottom: 32%;
     margin-bottom: 40px;
     margin: 9px;
-  }
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
 
   .list-card-body a {
     text-decoration: none;
@@ -176,7 +180,11 @@
     padding-bottom: 30%;
     margin-bottom: 4px;
     margin: 9px;
-  }
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
 
   .list-card-body a {
     text-decoration: none;
