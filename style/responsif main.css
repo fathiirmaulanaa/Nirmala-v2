@@ -126,7 +126,7 @@
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
-}
+  }
 
   .list-card-body a {
     text-decoration: none;
@@ -171,7 +171,7 @@
     justify-content: space-between;
   }
   .list-card {
-    width: 13.4rem;
+    width: 13rem;
   }
 
   .list-card-body {
@@ -184,7 +184,7 @@
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
-}
+  }
 
   .list-card-body a {
     text-decoration: none;
