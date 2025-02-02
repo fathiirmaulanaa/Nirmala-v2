@@ -601,7 +601,6 @@ footer {
     transform: translateX(100%);
     transition: transform 0.3s ease-in;
     z-index: 999;
-    box-shadow: 0px 9px 9px 0px black;
     -webkit-transform: translateX(100%);
     -moz-transform: translateX(100%);
     -ms-transform: translateX(100%);
